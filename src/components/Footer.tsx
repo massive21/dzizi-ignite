@@ -13,18 +13,20 @@ export function Footer() {
         <div>
           <h4 className="font-display font-bold uppercase">Explore</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
-            <li><a className="hover:text-brand-red" href="#services">Services</a></li>
-            <li><a className="hover:text-brand-red" href="#applications">Industries</a></li>
-            <li><a className="hover:text-brand-red" href="#about">About</a></li>
-            <li><a className="hover:text-brand-red" href="#contact">Contact</a></li>
+            <li><a className="hover:text-brand-red" href="/#services">Services</a></li>
+            <li><a className="hover:text-brand-red" href="/#applications">Industries</a></li>
+            <li><a className="hover:text-brand-red" href="/projects">Recent Projects</a></li>
+            <li><a className="hover:text-brand-red" href="/#about">About</a></li>
+            <li><a className="hover:text-brand-red" href="/#contact">Contact</a></li>
           </ul>
         </div>
         <div>
           <h4 className="font-display font-bold uppercase">Get in touch</h4>
           <ul className="mt-3 space-y-2 text-sm text-muted-foreground">
             <li>Nairobi, Kenya</li>
-            <li>info@dzizipetroleum.com</li>
-            <li>+254 700 000 000</li>
+            <li><a className="hover:text-brand-red" href="mailto:info@dzizipetroleum.com">info@dzizipetroleum.com</a></li>
+            <li><a className="hover:text-brand-red" href="tel:+254702587919">+254 702 587 919</a></li>
+            <li><a className="hover:text-brand-red" href="https://wa.me/254702587919" target="_blank" rel="noopener noreferrer">WhatsApp us</a></li>
           </ul>
         </div>
       </div>
