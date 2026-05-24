@@ -1,14 +1,12 @@
 import { motion } from "motion/react";
 import logo from "@/assets/dzizi/logo.jpeg";
 
-const WHATSAPP_URL = "https://wa.me/254702587919?text=Hello%20D%27zizi%20Petroleum%2C%20I%27d%20like%20to%20request%20a%20quote.";
-
 const links = [
-  { href: "/#services", label: "Services" },
-  { href: "/#applications", label: "Industries" },
-  { href: "/projects", label: "Projects" },
-  { href: "/#about", label: "About" },
-  { href: "/#contact", label: "Contact" },
+  { href: "#services", label: "Services" },
+  { href: "#applications", label: "Industries" },
+  { href: "#clients", label: "Clients" },
+  { href: "#about", label: "About" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -33,9 +31,7 @@ export function Navbar() {
           ))}
         </ul>
         <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#contact"
           className="inline-flex items-center gap-2 rounded-full bg-brand-red px-4 py-2 text-sm font-semibold text-primary-foreground shadow-sm hover:bg-brand-red/90 transition"
         >
           Get a Quote
