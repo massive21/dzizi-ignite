@@ -54,11 +54,11 @@ export function Hero() {
               transition={{ duration: 0.7, delay: 0.4 }}
               className="mt-8 flex flex-wrap gap-3"
             >
-              <a href="#services" className="inline-flex items-center justify-center rounded-full bg-brand-ink px-6 py-3 text-sm font-semibold text-white hover:bg-brand-ink/90 transition">
-                Explore Our Services
+              <a href="https://wa.me/254702587919?text=Hello%20D%27zizi%20Petroleum%2C%20I%27d%20like%20to%20request%20a%20quote." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center rounded-full bg-brand-red px-6 py-3 text-sm font-semibold text-white hover:bg-brand-red/90 transition">
+                Get a Quote on WhatsApp
               </a>
-              <a href="#contact" className="inline-flex items-center justify-center rounded-full border border-brand-ink/20 bg-white px-6 py-3 text-sm font-semibold text-brand-ink hover:border-brand-red hover:text-brand-red transition">
-                Talk to an Engineer
+              <a href="/projects" className="inline-flex items-center justify-center rounded-full border border-brand-ink/20 bg-white px-6 py-3 text-sm font-semibold text-brand-ink hover:border-brand-red hover:text-brand-red transition">
+                See Recent Projects
               </a>
             </motion.div>
 
